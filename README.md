@@ -9,6 +9,11 @@ API REST en Flask para pasar mi extra con documentacion en SWAGGER en la ruta `\
 ```bash
 python -m venv env
 ```
+Activar el Entorno Virtual
+
+```bash
+env\Scripts\activate
+```
 
 2. Instala dependencias:
 
@@ -18,15 +23,10 @@ pip install -r requirements.txt
 
 3. Crea la BD con el nombre `estra`
 
-4. Activar el Entorno Virtual
-
-```bash
-env\Scripts\activate
-```
 
 5. Inicializar con `flask db init`
 
-6. Mensaje para tu migracion `flask db -m "XD"`
+6. Mensaje para tu migracion `flask db migrate -m "cómo voy a lavar los tomates? si ya los puse a hervir. en agua. ya se lavaron ahí. HIRVIÓ, HIRVIÓ"`
 
 7. Subir los cambios con `flask db upgrade`
 
