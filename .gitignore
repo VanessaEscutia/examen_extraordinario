@@ -1,6 +1,4 @@
-# Virtual environments
 env/
 
 # Python
 __pycache__/
-migrations/
